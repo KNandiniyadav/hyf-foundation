@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="formstyling.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form>
+      <div class="wrapper">
+        <label for="fname">First Name</label>
+        <input
+          id="fname"
+          type="text"
+          name="fname"
+          placeholder="Enter your first name"
+          required
+        />
+      </div>
+
+      <div class="wrapper">
+        <label for="lname">Last Name</label>
+        <input
+          id="lname"
+          type="text"
+          name="lname"
+          placeholder="Enter your last name"
+        />
+      </div>
+
+      <div class="wrapper">
+        <label for="title">Title</label>
+        <select id="title" name="registration">
+          <option value="Select">Select</option>
+          <option value="Ms.">Ms.</option>
+          <option value="Mr.">Mr.</option>
+          <option value="Mrs.">Mrs.</option>
+        </select>
+      </div>
+
+      <div class="wrapper">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="xyz@gmail.com"
+          required
+        />
+      </div>
+
+      <div class="wrapper">
+        <label for="msg">Message</label>
+        <textarea
+          id="msg"
+          name="msg"
+          placeholder="Enter your message here"
+        ></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
