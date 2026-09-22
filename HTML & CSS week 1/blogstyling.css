@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+p {
+  line-height: 1.5;
+}
+header {
+  background: linear-gradient(to right, rgb(212, 88, 212), rgb(27, 27, 112));
+  color: rgb(229, 227, 236);
+  min-height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header p {
+  padding: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+  gap: 20px;
+}
+main {
+  margin-top: 140px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(233, 236, 239);
+}
+.about-me,
+.denmark-journey,
+.learning-technologies {
+  background-color: rgb(246, 248, 251);
+  color: rgb(43, 24, 115);
+  padding: 20px;
+  border: 2px solid rgb(101, 101, 199);
+  border-radius: 10px;
+}
+
+aside {
+  margin: 0 auto;
+  padding: 50px;
+  border: 2px solid rgb(101, 101, 199);
+  border-radius: 10px;
+  width: 50%;
+  color: rgb(43, 24, 115);
+}
+footer {
+  background: linear-gradient(to right, rgb(212, 88, 212), rgb(27, 27, 112));
+  color: rgb(229, 227, 236);
+  text-align: center;
+  padding: 20px;
+}
+li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: rgb(43, 24, 115);
+}
+li:hover {
+  color: blue;
+  text-decoration: underline;
+  width: 50%;
+}

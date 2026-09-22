@@ -1,0 +1,30 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.table {
+  position: relative;
+  background-color: brown;
+}
+
+.title {
+  color: blueviolet;
+
+  @media (max-width: 600px) {
+    .title {
+      color: red;
+    }
+  }
+}
+.click {
+  cursor: pointer;
+
+  &:hover {
+    width: 100px;
+    background-color: red;
+  }
+  &:focus {
+    color: blue;
+  }
+}
