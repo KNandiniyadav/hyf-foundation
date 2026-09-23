@@ -1,2 +1,4 @@
 pink
 yellow
+Black
+white
